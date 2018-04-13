@@ -1,4 +1,4 @@
-FROM gliderlabs/alpine:3.5
+FROM mdillon/postgis
 
 RUN apk add --no-cache curl postgresql postgresql-contrib
 
